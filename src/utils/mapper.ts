@@ -41,6 +41,13 @@ export function mapCategoryToFrontend(c: any): types.Category {
   };
 }
 
+// Website launamgiakhanh.vn đã chuyển ảnh sang tên miền img.launamgiakhanh.vn (giữ nguyên đường dẫn),
+// nên link ảnh cũ còn lưu trong DB bị 404. Đổi sang tên miền mới để ảnh hiển thị lại.
+export function fixDishImageUrl(url: string | null | undefined): string {
+  if (!url) return url as any;
+  return url.replace(/^https?:\/\/(www\.)?launamgiakhanh\.vn\/storage\//i, 'https://img.launamgiakhanh.vn/storage/');
+}
+
 export function mapDishToFrontend(d: any): types.Dish {
   return {
     Ma_mon: d.id,
@@ -48,7 +55,7 @@ export function mapDishToFrontend(d: any): types.Dish {
     Ten_mon: d.name,
     Don_gia: Number(d.price),
     Mo_ta: d.description,
-    Anh_mon: d.image_url,
+    Anh_mon: fixDishImageUrl(d.image_url),
     Trang_thai: d.status as types.DishStatus
   };
 }
