@@ -759,7 +759,11 @@ app.post('/api/materials', (req, res) => {
 
 app.put('/api/materials/:id', (req, res) => {
   const { id } = req.params;
-  const { name, unit, stock_current, stock_min, stock_max, operatorId, operatorName } = req.body;
+  const { name, unit, stock_current, stock_min, stock_max, status, operatorId, operatorName } = req.body;
+
+  if (status !== undefined && status !== 'Hoạt động' && status !== 'Ngừng hoạt động') {
+    return res.status(400).json({ error: 'Trạng thái nguyên liệu không hợp lệ.' });
+  }
 
   if (stock_min >= stock_max) {
     return res.status(400).json({ error: 'Ngưỡng tồn tối thiểu phải nhỏ hơn ngưỡng tồn tối đa! (BR05)' });
@@ -769,17 +773,25 @@ app.put('/api/materials/:id', (req, res) => {
   const mIdx = materials.findIndex(m => m.id === id);
   if (mIdx === -1) return res.status(404).json({ error: 'Không tìm thấy nguyên vật liệu.' });
 
+  const oldStatus = materials[mIdx].status;
   materials[mIdx] = {
     id,
     name: name || materials[mIdx].name,
     unit: unit || materials[mIdx].unit,
     stock_current: stock_current !== undefined ? Number(stock_current) : materials[mIdx].stock_current,
     stock_min: Number(stock_min),
-    stock_max: Number(stock_max)
+    stock_max: Number(stock_max),
+    status: status || materials[mIdx].status || 'Hoạt động'
   };
+  const statusChanged = (oldStatus || 'Hoạt động') !== materials[mIdx].status;
   db.save('raw_materials', materials);
 
-  logAction(operatorId || 'system', operatorName || 'Kho', 'Cập nhật nguyên liệu', `Sửa cấu hình định mức tồn kho cho "${materials[mIdx].name}"`);
+  if (statusChanged) {
+    const verb = materials[mIdx].status === 'Ngừng hoạt động' ? 'Ngừng sử dụng' : 'Kích hoạt lại';
+    logAction(operatorId || 'system', operatorName || 'Kho', `${verb} nguyên liệu`, `${verb} vật tư "${materials[mIdx].name}"`);
+  } else {
+    logAction(operatorId || 'system', operatorName || 'Kho', 'Cập nhật nguyên liệu', `Sửa cấu hình định mức tồn kho cho "${materials[mIdx].name}"`);
+  }
   return res.json({ success: true, material: materials[mIdx] });
 });
 

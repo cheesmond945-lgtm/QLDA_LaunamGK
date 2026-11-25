@@ -289,10 +289,11 @@ export default function CustomerOrderView() {
 
     if (searchQuery.trim()) {
       const query = removeDiacritics(searchQuery.trim()).toLowerCase();
+      // Tìm theo tên món + tên danh mục (không tìm trong mô tả: mô tả món nào cũng chứa "Lẩu nấm Gia Khánh" nên sẽ khớp gần hết)
+      const norm = (s: string) => removeDiacritics(s).toLowerCase();
       list = list.filter(d => {
-        const nameNormalized = removeDiacritics(d.Ten_mon).toLowerCase();
-        const descNormalized = d.Mo_ta ? removeDiacritics(d.Mo_ta).toLowerCase() : '';
-        return nameNormalized.includes(query) || descNormalized.includes(query);
+        const catName = categories.find(c => c.Ma_danh_muc === d.Ma_danh_muc)?.Ten_danh_muc || '';
+        return norm(d.Ten_mon).includes(query) || norm(catName).includes(query);
       });
     }
     return list;
