@@ -66,7 +66,7 @@
       "id": "B02",
       "floor": 1,
       "capacity": 4,
-      "status": "trong"
+      "status": "co_khach"
     },
     {
       "id": "B03",
@@ -78,7 +78,7 @@
       "id": "B04",
       "floor": 1,
       "capacity": 6,
-      "status": "trong"
+      "status": "co_khach"
     },
     {
       "id": "B05",
@@ -425,6 +425,10 @@
     {
       "id": "cust_1781496882675",
       "phone": "0379174255"
+    },
+    {
+      "id": "cust_1795601971432",
+      "phone": "0986154977"
     }
   ],
   "categories": [
@@ -466,7 +470,7 @@
       "name": "Combo 6 khách -  Chim câu",
       "price": 1730000,
       "description": "Combo 6 khách -  Chim câu chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/240598260_4286049091472471_2686320172808960609_n-300x200.jpg",
+      "image_url": "/images/dishes/m01.jpg",
       "status": "Hết món"
     },
     {
@@ -475,7 +479,7 @@
       "name": "Combo 6 khách -  Gà ác",
       "price": 1678000,
       "description": "Combo 6 khách -  Gà ác chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/240598260_4286049091472471_2686320172808960609_n-300x200.jpg",
+      "image_url": "/images/dishes/m02.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -484,7 +488,7 @@
       "name": "Combo 6 khách - Gà ta",
       "price": 1519000,
       "description": "Combo 6 khách - Gà ta chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/240598260_4286049091472471_2686320172808960609_n-300x200.jpg",
+      "image_url": "/images/dishes/m03.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -493,7 +497,7 @@
       "name": "Combo 4 khách - Tôm sú",
       "price": 1220000,
       "description": "Combo 4 khách - Tôm sú chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Rectangle 1.jpg",
+      "image_url": "/images/dishes/m04.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -502,7 +506,7 @@
       "name": "Combo Tri kỉ ( 2 khách )",
       "price": 645000,
       "description": "Combo Tri kỉ ( 2 khách ) chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/240598260_4286049091472471_2686320172808960609_n-300x200.jpg",
+      "image_url": "/images/dishes/m05.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -511,7 +515,7 @@
       "name": "Combo Uyên Ương ( 2 khách )",
       "price": 725000,
       "description": "Combo Uyên Ương ( 2 khách ) chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/240598260_4286049091472471_2686320172808960609_n-300x200.jpg",
+      "image_url": "/images/dishes/m06.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -520,7 +524,7 @@
       "name": "Combo Đặc biệt ( 2 khách )",
       "price": 825000,
       "description": "Combo Đặc biệt ( 2 khách ) chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/240598260_4286049091472471_2686320172808960609_n-300x200.jpg",
+      "image_url": "/images/dishes/m07.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -529,7 +533,7 @@
       "name": "Combo 4 khách  - Gà ác",
       "price": 1055000,
       "description": "Combo 4 khách  - Gà ác chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/combo.jpg",
+      "image_url": "/images/dishes/m08.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -538,7 +542,7 @@
       "name": "Combo 4 khách  - chim câu",
       "price": 1080000,
       "description": "Combo 4 khách  - chim câu chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/SET 250K chuẩn.jpg",
+      "image_url": "/images/dishes/m09.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -547,7 +551,7 @@
       "name": "DƯA CHUỘT CHẺ",
       "price": 25000,
       "description": "DƯA CHUỘT CHẺ chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/DuaChuotChe.jpg",
+      "image_url": "/images/dishes/m10.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -556,7 +560,7 @@
       "name": "LẠC",
       "price": 15000,
       "description": "LẠC chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/Lac.jpg",
+      "image_url": "/images/dishes/m11.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -565,7 +569,7 @@
       "name": "KHOAI MÔN CHIÊN",
       "price": 55000,
       "description": "KHOAI MÔN CHIÊN chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/KhoaiMonChien.jpg",
+      "image_url": "/images/dishes/m12.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -574,7 +578,7 @@
       "name": "KHOAI LANG CHIÊN",
       "price": 50000,
       "description": "KHOAI LANG CHIÊN chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/KhoaiLangChien.jpg",
+      "image_url": "/images/dishes/m13.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -583,7 +587,7 @@
       "name": "KHOAI TÂY CHIÊN",
       "price": 50000,
       "description": "KHOAI TÂY CHIÊN chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/KhoaiTayChien.jpg",
+      "image_url": "/images/dishes/m14.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -592,7 +596,7 @@
       "name": "NGÔ CHIÊN",
       "price": 50000,
       "description": "NGÔ CHIÊN chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/NgoChien.jpg",
+      "image_url": "/images/dishes/m15.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -601,7 +605,7 @@
       "name": "SÚP NẤM TRẮNG",
       "price": 30000,
       "description": "SÚP NẤM TRẮNG chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/SupNamTrang.jpg",
+      "image_url": "/images/dishes/m16.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -610,7 +614,7 @@
       "name": "SÚP NẤM HẢI SẢN",
       "price": 45000,
       "description": "SÚP NẤM HẢI SẢN chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/SupNamHaiSan.jpg",
+      "image_url": "/images/dishes/m17.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -619,7 +623,7 @@
       "name": "NEM NẤM (CHIẾC)",
       "price": 12000,
       "description": "NEM NẤM (CHIẾC) chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/NemNam.jpg",
+      "image_url": "/images/dishes/m18.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -628,7 +632,7 @@
       "name": "SALAD NẤM",
       "price": 50000,
       "description": "SALAD NẤM chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/SalasNam.jpg",
+      "image_url": "/images/dishes/m19.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -637,7 +641,7 @@
       "name": "NẤM XÀO TỔNG HỢP",
       "price": 110000,
       "description": "NẤM XÀO TỔNG HỢP chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/NamXaoTongHop.jpg",
+      "image_url": "/images/dishes/m20.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -646,7 +650,7 @@
       "name": "KHOAI MÔN",
       "price": 50000,
       "description": "KHOAI MÔN chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/KhoaiMon.jpg",
+      "image_url": "/images/dishes/m21.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -655,7 +659,7 @@
       "name": "RAU MUỐNG",
       "price": 25000,
       "description": "RAU MUỐNG chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/RauMuong.jpg",
+      "image_url": "/images/dishes/m22.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -664,7 +668,7 @@
       "name": "RAU CẢI XANH",
       "price": 25000,
       "description": "RAU CẢI XANH chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/RauCai.jpg",
+      "image_url": "/images/dishes/m23.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -673,7 +677,7 @@
       "name": "RAU CẦN",
       "price": 25000,
       "description": "RAU CẦN chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/RauCan.jpg",
+      "image_url": "/images/dishes/m24.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -682,7 +686,7 @@
       "name": "RAU CẢI XOONG",
       "price": 25000,
       "description": "RAU CẢI XOONG chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/RauCaiXoong.jpg",
+      "image_url": "/images/dishes/m25.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -691,7 +695,7 @@
       "name": "RAU CẢI CÚC",
       "price": 25000,
       "description": "RAU CẢI CÚC chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/RauCaiCuc.jpg",
+      "image_url": "/images/dishes/m26.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -700,7 +704,7 @@
       "name": "RAU CẢI THẢO",
       "price": 25000,
       "description": "RAU CẢI THẢO chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/CaiThao.jpg",
+      "image_url": "/images/dishes/m27.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -709,7 +713,7 @@
       "name": "THỊT BÒ ÚC – ĐĨA TO",
       "price": 130000,
       "description": "THỊT BÒ ÚC – ĐĨA TO chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/ThitBoUc.jpg",
+      "image_url": "/images/dishes/m28.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -718,7 +722,7 @@
       "name": "GÀ TA – ĐĨA TO",
       "price": 320000,
       "description": "GÀ TA – ĐĨA TO chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/GaTa.jpg",
+      "image_url": "/images/dishes/m29.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -727,7 +731,7 @@
       "name": "GÀ ÁC – ĐĨA TO",
       "price": 200000,
       "description": "GÀ ÁC – ĐĨA TO chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/GaAc.jpg",
+      "image_url": "/images/dishes/m30.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -736,7 +740,7 @@
       "name": "CHIM CÂU",
       "price": 280000,
       "description": "CHIM CÂU chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/ChimCau.jpg",
+      "image_url": "/images/dishes/m31.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -745,7 +749,7 @@
       "name": "TÔM SÚ",
       "price": 270000,
       "description": "TÔM SÚ chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/TomSu.jpg",
+      "image_url": "/images/dishes/m32.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -754,7 +758,7 @@
       "name": "ẾCH – ĐĨA TO",
       "price": 200000,
       "description": "ẾCH – ĐĨA TO chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/Ech.jpg",
+      "image_url": "/images/dishes/m33.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -763,7 +767,7 @@
       "name": "CÁ HỒI",
       "price": 320000,
       "description": "CÁ HỒI chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/CaHoi.jpg",
+      "image_url": "/images/dishes/m34.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -772,7 +776,7 @@
       "name": "NẤM HƯƠNG TƯƠI",
       "price": 68000,
       "description": "NẤM HƯƠNG TƯƠI chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/08_NamHuongTuoi.jpg",
+      "image_url": "/images/dishes/m35.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -781,7 +785,7 @@
       "name": "NẤM YẾN",
       "price": 62000,
       "description": "NẤM YẾN chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/NamYen.png",
+      "image_url": "/images/dishes/m36.png",
       "status": "Còn phục vụ"
     },
     {
@@ -790,7 +794,7 @@
       "name": "NẤM TIÊN",
       "price": 62000,
       "description": "NẤM TIÊN chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/10_NamYen.jpg",
+      "image_url": "/images/dishes/m37.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -799,7 +803,7 @@
       "name": "NẤM HẢI SẢN",
       "price": 62000,
       "description": "NẤM HẢI SẢN chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/06_NamThuyTinhTrang.jpg",
+      "image_url": "/images/dishes/m38.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -808,7 +812,7 @@
       "name": "NẤM KIM CHÂM TRẮNG",
       "price": 58000,
       "description": "NẤM KIM CHÂM TRẮNG chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/05_NamKimChamTrang.jpg",
+      "image_url": "/images/dishes/m39.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -817,7 +821,7 @@
       "name": "NẤM TUYẾT NHĨ",
       "price": 65000,
       "description": "NẤM TUYẾT NHĨ chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/03_NamTuyetNhi.jpg",
+      "image_url": "/images/dishes/m40.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -826,7 +830,7 @@
       "name": "NẤM THỦY TINH NÂU",
       "price": 78000,
       "description": "NẤM THỦY TINH NÂU chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/07_NamThuyTinhNau.jpg",
+      "image_url": "/images/dishes/m41.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -835,7 +839,7 @@
       "name": "NẤM THỦY TINH TRẮNG",
       "price": 78000,
       "description": "NẤM THỦY TINH TRẮNG chế biến từ nguyên liệu tươi ngon nhất, chuẩn vị Lẩu nấm Gia Khánh.",
-      "image_url": "https://launamgiakhanh.vn/storage/upload_image/images/Menu/01_NamTien.jpg",
+      "image_url": "/images/dishes/m42.jpg",
       "status": "Còn phục vụ"
     },
     {
@@ -2234,6 +2238,32 @@
     }
   ],
   "table_sessions": [
+    {
+      "id": "s_B04_0769",
+      "table_id": "B04",
+      "customer_id": "cust_1795601971432",
+      "customer_phone": "0986154977",
+      "start_time": "2026-11-25T10:19:50.769Z",
+      "end_time": null,
+      "share_code": "N7T2",
+      "status": "active",
+      "guests_count": 4,
+      "customer_name": "Khách vãng lai",
+      "created_by": "mv002"
+    },
+    {
+      "id": "s_B02_1443",
+      "table_id": "B02",
+      "customer_id": "cust_1795601971432",
+      "customer_phone": "0986154977",
+      "start_time": "2026-11-25T10:19:31.443Z",
+      "end_time": null,
+      "share_code": "5S4J",
+      "status": "active",
+      "guests_count": 2,
+      "customer_name": "c",
+      "created_by": "mv002"
+    },
     {
       "id": "s_B01_2681",
       "table_id": "B01",
@@ -6557,6 +6587,102 @@
     }
   ],
   "system_logs": [
+    {
+      "id": "log_1795602143222_ncpu",
+      "employee_id": "mv005",
+      "employee_name": "Hoàng Văn E",
+      "action": "Cập nhật nguyên liệu",
+      "created_at": "2026-11-25T10:22:23.222Z",
+      "changed_data": "Sửa cấu hình định mức tồn kho cho \"Canh đặc biệt\""
+    },
+    {
+      "id": "log_1795602052474_3jjg",
+      "employee_id": "mv005",
+      "employee_name": "Hoàng Văn E",
+      "action": "Cập nhật nguyên liệu",
+      "created_at": "2026-11-25T10:20:52.474Z",
+      "changed_data": "Sửa cấu hình định mức tồn kho cho \"Canh đặc biệt\""
+    },
+    {
+      "id": "log_1795602045916_i2nj",
+      "employee_id": "mv005",
+      "employee_name": "Hoàng Văn E",
+      "action": "Cập nhật nguyên liệu",
+      "created_at": "2026-11-25T10:20:45.916Z",
+      "changed_data": "Sửa cấu hình định mức tồn kho cho \"Canh đặc biệt\""
+    },
+    {
+      "id": "log_1795602029345_n8w6",
+      "employee_id": "mv005",
+      "employee_name": "Hoàng Văn E",
+      "action": "Đăng nhập hệ thống",
+      "created_at": "2026-11-25T10:20:29.345Z",
+      "changed_data": "Nhân viên đăng nhập với vai trò: Kho"
+    },
+    {
+      "id": "log_1795602026657_9e2v",
+      "employee_id": "mv002",
+      "employee_name": "Trần Thị B",
+      "action": "Đăng xuất hệ thống",
+      "created_at": "2026-11-25T10:20:26.657Z",
+      "changed_data": "Đăng xuất phiên làm việc"
+    },
+    {
+      "id": "log_1795601990814_0ujo",
+      "employee_id": "mv002",
+      "employee_name": "Nhân viên lễ tân",
+      "action": "Mở phiên đặt bàn",
+      "created_at": "2026-11-25T10:19:50.814Z",
+      "changed_data": "Kích hoạt bàn B04 cho Khách vãng lai cùng SĐT 0986154977 - Khách ngồi: 4 - Mã: N7T2"
+    },
+    {
+      "id": "log_1795601971485_s02m",
+      "employee_id": "mv002",
+      "employee_name": "Nhân viên lễ tân",
+      "action": "Mở phiên đặt bàn",
+      "created_at": "2026-11-25T10:19:31.485Z",
+      "changed_data": "Kích hoạt bàn B02 cho c cùng SĐT 0986154977 - Khách ngồi: 2 - Mã: 5S4J"
+    },
+    {
+      "id": "log_1795601960988_al7q",
+      "employee_id": "mv002",
+      "employee_name": "Trần Thị B",
+      "action": "Đăng nhập hệ thống",
+      "created_at": "2026-11-25T10:19:20.989Z",
+      "changed_data": "Nhân viên đăng nhập với vai trò: Lễ tân"
+    },
+    {
+      "id": "log_1795601958419_wdxe",
+      "employee_id": "mv005",
+      "employee_name": "Hoàng Văn E",
+      "action": "Đăng xuất hệ thống",
+      "created_at": "2026-11-25T10:19:18.419Z",
+      "changed_data": "Đăng xuất phiên làm việc"
+    },
+    {
+      "id": "log_1795601910942_gie6",
+      "employee_id": "mv005",
+      "employee_name": "Hoàng Văn E",
+      "action": "Đăng nhập hệ thống",
+      "created_at": "2026-11-25T10:18:30.942Z",
+      "changed_data": "Nhân viên đăng nhập với vai trò: Kho"
+    },
+    {
+      "id": "log_1795601899236_wmye",
+      "employee_id": "mv001",
+      "employee_name": "Nguyễn Văn A",
+      "action": "Đăng xuất hệ thống",
+      "created_at": "2026-11-25T10:18:19.236Z",
+      "changed_data": "Đăng xuất phiên làm việc"
+    },
+    {
+      "id": "log_1795601891835_ka1e",
+      "employee_id": "mv001",
+      "employee_name": "Nguyễn Văn A",
+      "action": "Đăng nhập hệ thống",
+      "created_at": "2026-11-25T10:18:11.835Z",
+      "changed_data": "Nhân viên đăng nhập với vai trò: Quản lý"
+    },
     {
       "id": "log_1781496891198_u70h",
       "employee_id": "mv001",
